@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 20%;
+    background-color: #E8AAB9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: center; /* Centralizar horizontalmente */
+    width: 100%; /* Para ocupar todo o espaço disponível */
+    height: 75%;
+}
+
+.logo-container img {
+    max-height: 100%; /* Para garantir que a imagem não ultrapasse a altura do container */
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse a largura do container */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 1px rgb(38, 17, 0);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly; /* Espaço igual entre as âncoras */
+    width: 100%; /* Para ocupar todo o espaço disponível */
+    height: 25%;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: #2A0016;
+    font-weight: 530;
+    padding: 10px;
+    font-size: 18px; /* Tamanho do texto aumentado */
+    font-family: 'Nunito', sans-serif;
+}
+.header-btn:hover{
+    color: rgb(255, 255, 255);
+}
+
+main {
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    height: 5%;
+    background-color: #E8AAB9;
+}
